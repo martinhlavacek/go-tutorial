@@ -1,6 +1,6 @@
 # go-tutorial
 
-## run
+## run cards
 
 ```
     cd cards

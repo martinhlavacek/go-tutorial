@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+//import "fmt"
 
 func main(){
 	//cards := deck{newCart("Tomas"), newCart("Martin")}
@@ -10,8 +10,14 @@ func main(){
 	// cards.saveToFile("test.txt")
 	// hand, remainingCards := deal(cards, 2)
 	
-	cards := newDeckFromFile("test.txt")
-	fmt.Println(cards.toString())
+	//cards := newDeckFromFile("test.txt")
+	cards := newDeck()
+	//fmt.Println(cards.toString())
+	cards.print()
+
+	cards.shuffle()
+	cards.print()
+
 
 	// hand.print()
 	// remainingCards.print()

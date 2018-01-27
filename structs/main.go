@@ -44,6 +44,10 @@ func main() {
 	martin.print()
 
 
+	pointerMartin := &martin
+	pointerMartin.updateName("jan")
+	martin.print()
+
 }
 
 func (p person) print() {
